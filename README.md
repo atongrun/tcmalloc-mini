@@ -24,8 +24,10 @@
 
 > tcmalloc-mini文档，访问速度可能有点慢
 
-[一、高并发内存池-序章](https://atong.run/2023/01/29/%E9%A1%B9%E7%9B%AE/%E9%AB%98%E5%B9%B6%E5%8F%91%E5%86%85%E5%AD%98%E6%B1%A0/%E9%AB%98%E5%B9%B6%E5%8F%91%E5%86%85%E5%AD%98%E6%B1%A0-%E5%BA%8F%E7%AB%A0/)
+[一、高并发内存池-序章](https://atong.run/posts/4062989894/)
 
-[二、高并发内存池-预备](https://atong.run/2023/02/02/%E9%A1%B9%E7%9B%AE/%E9%AB%98%E5%B9%B6%E5%8F%91%E5%86%85%E5%AD%98%E6%B1%A0/%E9%AB%98%E5%B9%B6%E5%8F%91%E5%86%85%E5%AD%98%E6%B1%A0-%E9%A2%84%E5%A4%87/)
+[二、高并发内存池-预备](https://atong.run/posts/594127029/)
 
-[三、高并发内存池-框架](https://atong.run/2023/02/03/%E9%A1%B9%E7%9B%AE/%E9%AB%98%E5%B9%B6%E5%8F%91%E5%86%85%E5%AD%98%E6%B1%A0/%E9%AB%98%E5%B9%B6%E5%8F%91%E5%86%85%E5%AD%98%E6%B1%A0-%E6%A1%86%E6%9E%B6/)
+[三、高并发内存池-框架](https://atong.run/posts/1235732513/)
+
+[四、高并发内存池-ThreadCache](https://atong.run/posts/1785806469/)
