@@ -94,8 +94,7 @@ Span* PageCache::NewSpan(size_t k)
 }
 
 
-
-// 获取对象到span的映射
+// 获取对象到span的映射。
 Span* PageCache::MapObjectToSpan(void* obj)
 {
 	PAGE_ID id = ((PAGE_ID)obj >> PAGE_SHIFT);
