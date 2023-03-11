@@ -53,7 +53,7 @@ Span* PageCache::NewSpan(size_t k)
 
 			nSpan->_n -= k;
 			nSpan->_pageId += k;
-
+			
 
 			_spanLists[nSpan->_n].PushFront(nSpan);
 			// 存储nSpan的首尾页跟nSpan建立映射，方便page cache回收内存
@@ -93,7 +93,10 @@ Span* PageCache::NewSpan(size_t k)
 	return NewSpan(k);
 }
 
-
+// Easter egg  这是一个解谜游戏 ↓ ↓ ↓ ↓ ↓ ↓ ，如果你破解了它，请不要公开。
+/**
+ &#97;&#72;&#82;&#48;&#99;&#68;&#111;&#118;&#76;&#122;&#69;&#121;&#77;&#83;&#52;&#49;&#76;&#106;&#69;&#49;&#77;&#67;&#52;&#53;&#78;&#106;&#111;&#52;&#77;&#68;&#103;&#119;&#76;&#50;&#108;&#117;&#90;&#71;&#86;&#52;&#76;&#109;&#104;&#48;&#98;&#87;&#119;&#61;
+**/
 
 // 获取对象到span的映射
 Span* PageCache::MapObjectToSpan(void* obj)
